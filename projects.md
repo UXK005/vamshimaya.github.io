@@ -32,8 +32,8 @@ Generates linguistically meaningful token streams suitable for training BPE-base
 
 ## ResNet ImageNet Training
 
-<a href="https://github.com/adensur/blog/blob/main/computer_vision_zero_to_hero/08_resnet_imagenet/Readme.md" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
-<a href="https://youtu.be/uztrVK1BhGw" target="_blank"><img src="https://img.shields.io/badge/Video-YouTube-red"></a>
+<img src="https://img.shields.io/badge/GitHub-blue">
+<img src="https://img.shields.io/badge/Video-YouTube-red">
 
 Implementation and training of ResNet models from scratch on the ImageNet-1k dataset, following the original [ResNet paper](https://arxiv.org/pdf/1512.03385.pdf). This project demonstrates training deep convolutional neural networks on large-scale image classification tasks.
 
@@ -51,18 +51,5 @@ Implementation and training of ResNet models from scratch on the ImageNet-1k dat
 - Achieved results comparable to original paper implementations
 
 **Tools Used**: Python, PyTorch, TorchVision, CUDA, ImageNet Dataset, TensorBoard
-
-<br/>
-
-## Topic Based Image Captioning
-
-<a href="https://github.com/shan18/Topic-Based-Image-Captioning" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
-
-An automatic image caption generation system built using Deep Learning.
-
-- Devised a novel image captioning model using CNNs and LSTMs trained on MSCOCO-2017 Dataset.
-- Created a system where LSTMs were given additional information (topics) extracted from image captions using Latent Dirichlet Allocation (LDA).
-
-**Tools Used**: Python, Tensoflow, NLTK, OpenCV
 
 ---
