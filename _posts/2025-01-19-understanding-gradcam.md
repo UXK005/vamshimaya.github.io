@@ -2,6 +2,7 @@
 layout: post
 title: Understanding Grad-CAM
 subtitle: Visualizing What CNNs See
+image: /img/understanding-gradcam/cat.png
 tags: [deep learning, computer vision, pytorch, interpretability, CNN, visualization]
 ---
 
@@ -31,6 +32,8 @@ Without visualization:
 Grad-CAM helps answer a simple but critical question:
 
 > **"Where is the model looking?"**
+
+![Applied Grad-CAM](/img/understanding-gradcam/cat.png)
 
 ![Grad-CAM Examples](https://learnopencv.com/wp-content/uploads/2023/12/GradCAM-examples-748x1024.png)
 
