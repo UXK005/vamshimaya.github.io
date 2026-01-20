@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Blog
 subtitle: My Research Work
 ---
 
