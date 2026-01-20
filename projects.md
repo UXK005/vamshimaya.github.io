@@ -8,22 +8,25 @@ This is a collection of my personal projects that I work on in my free time. Hop
 
 ---
 
-## Flash
+## Telugu Morph Tokenizer
 
-<a href="https://shan18.github.io/Flash" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
-<a href="https://github.com/shan18/Flash" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+<a href="https://github.com/UXK005/indic-morph-tokenizer" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+<a href="https://huggingface.co" target="_blank"><img src="https://img.shields.io/badge/Hugging%20Face-yellow"></a>
 
-An end-to-end Deep Learning platform that allows users to create, train, and deploy their own neural network models in a matter of minutes without writing a single line of code.
+A Telugu-specific tokenizer built with linguistic awareness, designed to perform morphology-aware and sandhi-informed segmentation instead of generic byte-level tokenization.
 
-The platform supports two types of tasks:
+The tokenizer supports the following features:
 
-1. **Image Classification**  
-   Classify images from your own dataset by using them to train a ResNet-34 or MobileNet v2 model. Training happens via transfer learning where models available will be pre-trained on the ImageNet dataset.
+**1. Telugu-aware Tokenization**
+Processes Telugu text using Unicode-normalized grapheme clusters to preserve valid character groupings and avoid incorrect splits.
 
-2. **Sentiment Analysis**  
-   Predict sentiment from sentences by training a LSTM or GRU based sequential model on your own dataset. The models will be trained from scratch.
+**2. Morphology & Sandhi-aware Segmentation**
+Splits Telugu words into roots and suffixes (plural, case markers) following grammatical ordering rules, with optional sandhi-aware processing.
 
-**Tools Used**: Python, PyTorch, JavaScript, ReactJS, Redux, AWS (Lambda, EC2, S3)
+**3. Subword Tokenizer Training Support**
+Generates linguistically meaningful token streams suitable for training BPE-based subword tokenizers for Telugu language models.
+
+**Tools Used**: Python, Unicode (UTF-8), Regular Expressions, Rule-based NLP, Hugging Face
 
 <br/>
 
