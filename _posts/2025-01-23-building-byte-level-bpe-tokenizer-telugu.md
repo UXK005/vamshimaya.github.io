@@ -199,11 +199,11 @@ To evaluate tokenizer quality, I computed:
 compression_ratio = total_bytes / total_tokens
 ```
 
-After training: **Compression Ratio ≈ 6.0**
+After training: **Compression Ratio ≈ 9.5**
 
 This means:
 
-* 6 UTF-8 bytes per token on average
+* 9 UTF-8 bytes per token on average
 * Strong subword learning
 * Effective merges for Telugu
 
