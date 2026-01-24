@@ -8,20 +8,20 @@ This is a collection of the research work that I have done till now.
 
 ---
 
-## Topic-Based Image Caption Generation
+## Title 1
 
 - **Conference:** Arabian Journal for Science and Engineering (AJSE)
-- **Publication Date:** 15th November 2019
-- **Authors**: Sandeep Kumar Dash, Shantanu Acharya, Partha Pakray, Ranjita Das and Alexander Gelbukh
-- **Link:** https://link.springer.com/article/10.1007/s13369-019-04262-2
+- **Publication Date:** 15th MONTH YYYY
+- **Authors**: Firstname Lastname
+- **Link:** https://link.springer.com/
 
 <br/>
 
-## Every Child Should Have Parents: A Taxonomy Refinement Algorithm Based on Hyperbolic Term Embeddings
+## Title 2
 
 - **Conference:** Association for Computational Linguistics (ACL)
-- **Publication Date:** 5th June 2019
-- **Authors**: Rami Aly, _Shantanu Acharya_, Alexander Ossa, Arne Köhn, Chris Biemann and Alexander Panchenko
-- **Link:** https://arxiv.org/abs/1906.02002
+- **Publication Date:** 5th Month YYYY
+- **Authors**: Vamshi Maya
+- **Link:** https://arxiv.org/
 
 ---
