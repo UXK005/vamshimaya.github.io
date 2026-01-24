@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Building a Byte-Level BPE Tokenizer for Indic Language - Telugu
-subtitle: A deep dive into designing, training, analyzing, and visualizing a reversible Byte Pair Encoding tokenizer
+title: Byte-Level BPE Tokenizer for Telugu
+subtitle: Building a reversible tokenizer from scratch
 image: /img/bpe-tokenizer/toklogo.png
 tags: [NLP, tokenization, BPE, Telugu, Indic languages, machine learning, Python, Unicode]
 ---
