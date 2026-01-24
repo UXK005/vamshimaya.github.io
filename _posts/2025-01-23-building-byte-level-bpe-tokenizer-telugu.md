@@ -226,6 +226,8 @@ I built a **Gradio-based interactive visualizer**, deployed on **HuggingFace Spa
 
 Each visual token corresponds **exactly** to one BPE token ID.
 
+![Live encoding + decoding demo](/img/bpe-tokenizer/vid4.gif)
+
 ---
 
 ## Key Takeaways
