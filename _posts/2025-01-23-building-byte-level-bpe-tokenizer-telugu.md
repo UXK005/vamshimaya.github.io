@@ -107,7 +107,7 @@ And becomes the baseline for measuring compression.
 In my implementation:
 
 * Merges are learned **incrementally**
-* Vocabulary grows from 256 → `VOCABSIZE`
+* Vocabulary grows from 256 → `VOCABSIZE = 4756`
 * Each merge creates a new token ID
 
 ```python
@@ -150,7 +150,7 @@ For training, I used the **Telugu subset of IndicCorpV2**, released by AI4Bharat
 * Covers real-world Telugu usage
 * Mixed scripts and domains
 
-I trained on a **1GB slice** for experimentation and scaling.
+I trained on the first 10000 lines of **1GB slice** for experimentation and scaling.
 
 ---
 
@@ -232,14 +232,11 @@ Each visual token corresponds **exactly** to one BPE token ID.
 
 ## Try It Yourself
 
-* 🔗 **Live Demo (HuggingFace Spaces)**  
-  *(https://huggingface.co/spaces/UXK005/telugu-bpe-tokenizer)*
+* 🔗 [HuggingFace Spaces](https://huggingface.co/spaces/UXK005/telugu-bpe-tokenizer)
 
-* 📦 **Source Code (GitHub)**  
-  *(https://github.com/UXK005/indic-morph-tokenizer)*
+* 📦 [GitHub](https://github.com/UXK005/indic-morph-tokenizer)
 
-* 📄 **Dataset**  
-  AI4Bharat IndicCorpV2 (Telugu)
+* 📄 [AI4Bharat IndicCorpV2](https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data)
 
 ---
 
