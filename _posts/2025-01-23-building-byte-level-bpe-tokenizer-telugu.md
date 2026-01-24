@@ -230,20 +230,6 @@ Each visual token corresponds **exactly** to one BPE token ID.
 
 ---
 
-## Key Takeaways
-
-This project demonstrates:
-
-* Deep understanding of Unicode & UTF-8
-* Tokenization internals beyond libraries
-* Efficient large-scale training
-* Explainable NLP tooling
-* End-to-end system thinking
-
-It's not just a tokenizer — it's a **learning artifact**.
-
----
-
 ## Try It Yourself
 
 * 🔗 **Live Demo (HuggingFace Spaces)**  
